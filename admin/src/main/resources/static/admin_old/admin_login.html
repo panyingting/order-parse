@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title>后台登录</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css"/>
+	<script src="scripts/libs/modernizr/modernizr.js" type="text/javascript"></script>
+	<script src="scripts/config.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../js/jquery.js" charset="utf-8"></script>
+	<script src="scripts/libs/require/require.js" type="text/javascript" data-main="scripts/app/index/main"></script>
+	<script type="application/javascript" >
+        $(document).ready(function(){
+
+
+            // 报文信息提交
+            $("#loginBtn").click(function () {
+
+                var txtUser =  $("#txtUser").val();
+                var txtPwd = $("#txtPwd").val();
+                $.ajax({
+                    type: "POST",
+                    url: "/user/login",
+                    contentType: 'application/x-www-form-urlencoded;charset=utf-8',
+                    data: {"username":txtUser, "password":txtPwd},
+                    success: function(data){
+                        if(data.success){
+                            alert("登录成功");
+                            $(location).attr('href', 'index.html');
+                        }
+                        else{
+                            alert("登录失败："+data.msg);
+                        }
+                    },
+                    error:function(XMLHttpRequest, textStatus, errorThrown){
+                        alert(textStatus+" :"+errorThrown);
+                    }
+                });
+            });
+
+        });
+
+	</script>
+</head>
+<body>
+	<header id="header">
+		<hgroup>
+			<h1 class="site_title"><a href="index.html">Pwstrick Admin</a></h1>
+		</hgroup>
+	</header> <!-- end of header bar -->
+	<div class="w500 mc ovh">
+		<form   >
+			<section id="main" >
+				<article class="module width_full">
+					<header><h3>登录</h3></header>
+					<div class="module_content">
+						<fieldset>
+							<label for="txtUser">用户名</label>
+							<input type="text" id="txtUser"/>
+						</fieldset>
+						<fieldset>
+							<label for="txtPwd">密码</label>
+							<input type="password" id="txtPwd"/>
+						</fieldset>
+						<div class="tc h30">
+							<a href="javascript:void(0)" class="button green" id="loginBtn">登录</a>
+						</div>
+						<h4 class="alert_error">An Error Message</h4>
+					</div>
+				</article>
+			</section>
+		</form>
+	</div>
+
+</body>
+</html>

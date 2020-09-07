@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telphone=no, email=no">
+<title>抽奖活动</title>
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<style>
+    #introduce_img{
+        width:100%;
+        height: 100%;
+        margin:0 auto;
+        position: relative;
+
+    }
+    * {
+        margin:0;
+        padding:0;
+        font-family:Microsoft YaHei,serif;
+    }
+    li {
+        list-style:none;
+    }
+    .ball {
+        position:absolute;
+        top:0;
+        left:0;
+        width:90px;
+        height:80px;
+        background:pink;
+        border-radius:50%;
+
+    }
+    .ball a{
+        position:absolute;
+        margin: 20px 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+</style>
+
+<head>
+</head>
+<body>
+<img id="introduce_img" src="/front/hbycj/images/hf_bg.jpeg"/>
+<div id="box">
+
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+    $(function(){
+        play(1);
+
+
+        $('#to_draw').click(function () {
+            urlParameters();
+        });
+
+
+    });
+
+    function urlParameters() {
+        //返回当前 URL 的查询部分（问号 ? 之后的部分）。
+        var urlParameters = location.search;
+        $(location).attr('href', '/front/hbycj/numbChou.html?id=EBEE');
+    }
+
+
+
+    function play(num) {
+        //生成num个div
+        for (var i = 0; i < num; i++) {
+            var Div = document.createElement("div");
+            Div.className = "ball";
+            Div.leftVal = 1 + i; //预存每个球的初始速度
+            Div.topVal = 1 + i; //预存每个球的初始速度
+            Div.innerHTML = "<a id='to_draw' >抽 奖</a>";
+            Div.style.backgroundColor = randomC();
+            document.body.appendChild(Div);
+        }
+
+        var aBall = document.querySelectorAll(".ball");
+        maxTop = document.documentElement.clientHeight - aBall[0].clientHeight, //获取top的最大值
+            maxLeft = document.documentElement.clientWidth - aBall[0].clientWidth; //获取left的最大值
+
+        window.onresize = function() {
+            maxTop = document.documentElement.clientHeight - aBall[0].clientHeight; //获取top的最大值
+            maxLeft = document.documentElement.clientWidth - aBall[0].clientWidth; //
+        };
+
+        auto();
+
+        function auto() {
+            for (var i = 0; i < num; i++) {
+                var Ball = aBall[i],
+                    startL = Ball.offsetLeft, //取每个球的初始left和TOP值
+                    startT = Ball.offsetTop, //取每个球的初始left和TOP值
+                    Left = startL + Ball.leftVal, //改变，每个球的left和top值
+                    Top = startT + Ball.topVal; //改变，每个球的left和top值
+
+
+                if (Left >= maxLeft || Left <= 0) {
+                    Left = Math.min(Left, maxLeft); //限制Left的最大值
+                    Left = Math.max(Left, 0); //限制最小值
+
+                    Ball.leftVal = -Ball.leftVal;
+                    Ball.style.backgroundColor = randomC();
+
+                }
+                if (Top >= maxTop || Top <= 0) {
+                    Ball.topVal = -Ball.topVal;
+
+                    Top = Math.min(Top, maxTop); //限制Left的最大值
+                    Top = Math.max(Top, 0); //限制最小值
+                    Ball.style.backgroundColor = randomC();
+                }
+
+
+                Ball.style.top = Top + "px";
+                Ball.style.left = Left + "px";
+            }
+            requestAnimationFrame(auto)
+
+        }
+        // rgb(0-255)
+        function randomC() {
+            var r = Math.floor(Math.random() * 256),
+                g = Math.floor(Math.random() * 256),
+                b = Math.floor(Math.random() * 256);
+            return "rgb(" + r + "," + g + "," + b + ", 0.7)";
+        }
+
+    }
+</script>
+

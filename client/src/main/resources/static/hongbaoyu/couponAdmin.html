@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" >
+    <title>优惠券管理</title>
+    <base target="_blank" href="html5.html" />
+    <script type="text/javascript" src="../js/jquery.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+<hr/>
+<div>
+    <admin2>信息类型判断功能</admin2>
+</div>
+<hr/>
+<hr/>
+
+
+<div>
+    <h3>信息规则匹配</h3>
+    <table>
+        <tr>
+            <td>信息类型</td>
+            <td><select id="type_select_match"><option value="">请选择</option></select></td>
+            <td>报文信息</td>
+            <td><textarea rows="10" cols="200" id="message"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td><input type="button" value="提交" id="message_submit_btn"/></td>
+        </tr>
+    </table>
+    <hr/>
+</div>
+
+
+<div id="add_type">
+    <h3>类型添加</h3>
+    <form action="#">
+        <div>
+            <label>类型名称</label> <input type="text" id="type_name"/> <input type="button" value="新增" id="add_type_btn">
+        </div>
+    </form>
+</div>
+<hr/>
+<div>
+    <h3>类型管理</h3>
+
+
+    <table border="1">
+        <thead>
+        <tr>
+            <th colspan="2"> <input type="button" value=" 删 除 " id="del_type_btn"/></th>
+        </tr>
+        <tr>
+            <th> 选择 </th>
+            <th> 类型名称 </th>
+        </tr>
+        </thead>
+        <tbody  id="type_manage">
+
+        </tbody>
+    </table>
+</div>
+<hr/>
+<hr/>
+<div id="add_rule">
+    <h3>规则添加</h3>
+    <form action="#">
+        <table>
+            <tr>
+                <td>类型</td>
+                <td><select id="type_select">
+                    <option value="">请选择</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>规则名称</td>
+                <td><input type="text" id="rule_name"/></td>
+            </tr>
+            <tr>
+                <td>匹配字段</td>
+                <td><input type="text" id="rule_key"/> <input type="text" id="rule_value"/></td>
+            </tr>
+            <tr>
+                <td>匹配字段2条件 </td>
+                <td><input type="radio" name="operation" value="0" checked/> 不选条件2 <input type="radio" name="operation" value="1"/> 或 <input type="radio" name="operation" value="2"/> 且 </td>
+            </tr>
+
+            <tr>
+                <td>匹配字段2</td>
+                <td><input type="text" id="rule_key2"/> <input type="text" id="rule_value2"/></td>
+            </tr>
+        </table>
+
+        <input type="button" value="新增" id="add_role_btn">
+    </form>
+</div>
+
+<div>
+    <h3>规则管理</h3>
+
+
+    <table border="1">
+        <thead>
+        <tr>
+            <th colspan="2"><input type="button" value=" 删 除 " id="del_rule_btn"/></th>
+            <th colspan="6"></th>
+        </tr>
+        <tr>
+            <th> 操作 </th>
+            <th> 规则名称 </th>
+            <th> 规则类型 </th>
+            <th> 规则字段1 </th>
+            <th> 规则值1 </th>
+            <th> 规则2匹配类型 </th>
+            <th> 规则字段2 </th>
+            <th> 规则值2 </th>
+        </tr>
+        </thead>
+        <tbody id="rule_manage">
+
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

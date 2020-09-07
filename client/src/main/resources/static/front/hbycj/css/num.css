@@ -1,0 +1,70 @@
+
+/* === CSS Reset ========== */
+html,body{margin:0;padding:0;overflow:hidden;height: 100%;idth:10%}
+/* === End CSS Reset ========== */
+
+body{
+    background-image: url("../images/bj.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+#box{
+    width:90%;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+
+}
+.main{
+    width:100%;
+    height:100%;
+}
+.logo{
+    width: 100%;
+    height: 300px;
+}
+.num_box{
+    height:20%;
+    width: 100%;
+    margin:0 auto;
+    z-index:8;
+    overflow:hidden;
+    text-align:center;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+.num{
+    background:url("../images/num.png") top center repeat-y;
+    background-size: 100% 1000%;
+    width:33%;
+    height:100%;
+    float:left;
+    position: absolute;
+    z-index:0;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+.num1{
+    left: 0;
+}
+.num2{
+    left: 33%;
+}
+.num3{
+    left: 66%;
+}
+
+#draw_btn{
+    cursor: pointer;
+    height: 100px;
+    margin:0 auto;
+    width: 100%;
+    background:#e4eef3;
+    opacity: 0.3;
+    font-size:30px;
+    line-height: 100px;
+    text-align: center;
+    border-radius:0px 0px 10px 10px;
+}
+
+li{ list-style-type: none; }

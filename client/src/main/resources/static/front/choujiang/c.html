@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>成飞宇的转盘抽奖H5</title>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <link rel="stylesheet" href="css/typo/typo.css">
+    <link rel="stylesheet" href="css/GB-canvas-turntable1.css">
+    <style>
+        body{    background-image: url(images/bg.jpg);}
+        .wrapper {padding: 20px 40px;}
+
+        .fork-github {
+            position: fixed;
+            right: -100px;
+            top: 45px;
+            z-index: 9999;
+            padding: 2px 100px;
+            font-size: 12px;
+            background-color: #444;
+            border: 1px solid #000;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            text-align: center;
+        }
+
+        .fork-github a {color: #fff;}
+
+        .gb-turntable a.gb-turntable-btn {
+            border: none;
+        }
+        .cc{ position:relative; left:0; right:0; margin:0 auto; top:28%; text-align:center;}
+        .cc>img{ width:23rem;}
+        .gb-turntable{ position:static;}
+        .gb-turntable-container{ vertical-align:middle; top:2.3rem;}
+        .gb-turntable-btn{ left:0; right:0; top:40%; margin:0 auto;}
+
+
+    </style>
+</head>
+
+<body>
+<div class="cc">
+    <img src="images/11.png">
+    <section id="turntable" class="gb-turntable">
+        <div class="gb-turntable-container">
+            <canvas class="gb-turntable-canvas" width="300" height="300px">抱歉！浏览器不支持。</canvas>
+        </div>
+
+        <a class="gb-turntable-btn" href="javascript:;">抽奖</a>
+    </section>
+
+</div>
+
+
+
+
+<script type="text/javascript" src="js/GB-canvas-turntable.js"></script>
+<script type="text/javascript" defer="defer">
+    var prizes=[{
+        text: '1元红包',img: 'images/redpacket.png'
+    }, {
+        text: '2元红包'
+    }, {
+        text: '3元红包'
+    }, {
+        text: '显示器',
+        img: 'images/display.png'
+    }, {
+        text: '5元红宝'
+    }, {
+        text: '6元红宝'
+    }, {
+        text: '大彩电'
+    }];
+    var num = 2;
+
+    $(document).ready(function(){
+        gbTurntable.init({
+            id: 'turntable',
+            config: function (callback) {
+                // 获取奖品信息
+                // callback && callback(['11元红包','2元红包','3元红包','4元红包','5元红包','6元红包']);
+                callback && callback(prizes);
+            },
+            getPrize: function (callback) {
+                // 获取中奖信息
+                //var num = Math.random() * prizes.length >>> 0, //奖品ID
+                chances = num; // 可抽奖次数
+                callback && callback([num, chances]);
+            },
+            gotBack: function (data) {
+                alert('恭喜抽中' + data);
+            }
+        });
+    });
+
+    /*
+	document.addEventListener('DOMContentLoaded', function () {
+
+
+    }, false);
+	*/
+</script>
+</body>
+
+</html>

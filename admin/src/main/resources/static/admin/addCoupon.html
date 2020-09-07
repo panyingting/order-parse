@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>网站信息</title>  
+    <link rel="stylesheet" href="css/pintuer.css">
+    <link rel="stylesheet" href="css/admin.css">
+  <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+
+  <script src="js/jquery.js"></script>
+    <script src="js/pintuer.js"></script>  
+    <script src="js/addCoupon.js"></script>
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 优惠券信息</strong></div>
+  <div class="body-content">
+    <dev class="form-x" >
+      <div class="form-group">
+        <div class="label">
+          <label>优惠券名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="name" value="" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>初始总数量：</label>
+        </div>
+        <div class="field">
+          <input type="number" class="input" name="initNum" value="" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>初始已消费数量：</label>
+        </div>
+        <div class="field">
+          <input type="number" class="input" name="deliveryNum" value="" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>活动开始时间：</label>
+        </div>
+        <div class="field">
+          <input type="text"  class="input" name="limitStartTime" onFocus="WdatePicker({startDate:'%y-%M-01 00:00:00',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:true})"/>               
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>活动结束时间：</label>
+        </div>
+        <div class="field">
+          <input type="text"  class="input" name="limitEndTime" onFocus="WdatePicker({startDate:'%y-%M-01 00:00:00',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:true})"/>          
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>优惠券类型：</label>
+        </div>
+        <div class="field">
+          <select class="input" name="type" id="coupon_type">
+            <option value="3" selected>红 包</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>信息配置：</label>
+        </div>
+        <div class="field">
+          <input class="input" name="desc" type="text" placeholder="红包金额用逗号隔开" style="height:80px"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" id="addCoupon" type="submit"> 提交</button>
+        </div>
+      </div>
+    </dev>
+  </div>
+</div>
+</body></html>
