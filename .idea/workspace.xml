@@ -5,358 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a4f1f97-1700-491e-a355-144aa8625ee0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/AdminSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/config/DefaultPageConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/AdminOperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/interceptor/AdminInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/admin/interceptor/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/adv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/cate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/couponAccountList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/couponList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/images/passcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/images/tmbg-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/images/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/My97DatePicker/新建文本文档.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponAccountList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/dateFormat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/pintuer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/admin_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/ajax/operate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/extend_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/extend_menu_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/breadcrumb_divider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/btn_submit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/btn_submit_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/btn_view_site.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/header_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/header_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_add_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_alert_error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_alert_info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_alert_success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_alert_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_audio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_categories.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_edit_article.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_jump_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_new_article.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_security.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_tags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/icn_view_users.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/img_btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/module_footer_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/post_message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/secondary_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/secondary_bar_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/sidebar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/sidebar_divider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/sidebar_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/images/table_sorter_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/app/index/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/app/index/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/app/menu_list/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/app/menu_list/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/build.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/backbone/backbone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/backbone/backbone.localStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/backbone/backbone_amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/modernizr/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/require/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/require/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/spin/spin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/underscore/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/libs/underscore/underscore_amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/models/admin_keyword/listModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/models/menu/menuModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/util/const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/views/menu/listView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/optimize/views/util/shortcutView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/app/index/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/app/index/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/app/menu_list/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/app/menu_list/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/indexPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/backbone/backbone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/backbone/backbone.localStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/backbone/backbone_amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/jasmine/jasmine-ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/jasmine/jasmine-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/jasmine/jasmine-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/jasmine/jasmine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/jasmine/jasmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/modernizr/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/require/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/require/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/spin/spin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/underscore/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/libs/underscore/underscore_amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/models/admin_keyword/listModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/models/menu/menuModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/optimize.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/util/const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/util/regex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/util/string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/views/menu/listView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/scripts/views/util/shortcutView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/styles/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/styles/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/styles/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/styles/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/SpecRunner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/fixtures/keyword/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/fixtures/play/query.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/libs/md5Spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/models/menu/menuSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/util/circleValidateSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/util/constSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/util/messageValidateSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/admin_keyword/listSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/libs/iscrollSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/libs/purlSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/util/pageSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/util/regexSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/util/shortcutSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/jasmine/spec/views/util/stringSpec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/libs/jasmine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/libs/url.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/page/php/test1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tests/page/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin_old/tmp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/adv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/cate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/images/passcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/images/tmbg-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/images/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/js/pintuer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/dxcvdfgdgd/pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/static/one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/config/ClientConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/HtmlController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WXUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WeixinAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WeixinMessageDigestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/interceptor/ClientInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/interceptor/ClientLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/interceptor/ClientLoginAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/interceptor/OAuth2Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/model/Oauth2Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/model/SNSUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/model/WeichatAppInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/0元抢购  注册.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/drawCouponList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/del.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/fg-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/gq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/img/rule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/js/zepto.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/coupon/温馨提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/css/GB-canvas-turntable1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/css/typo/typo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/images/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/images/5E1CAD89-A9FF-444F-A0B7-BE06C6B82E55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/images/display.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/images/redpacket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/js/GB-canvas-turntable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/1_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/1_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/1_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/bg-new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/timg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/timg2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/lanren.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/sweet-alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/1_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/ParticleSmoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/gx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/pointer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/pointer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/MyDialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/Snow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/ThreeCanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/awardRotate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/couponList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/dateFormat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/sweet-alert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/couponAdmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/css/sweet-alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/images/bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/images/gx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/images/hb_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/images/hb_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/JiaoServiceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/EncryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/JSONUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/md5/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/md5/CodingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/md5/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/BaseAutoIdEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponAccountEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-parse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/MySpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/ClientSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/common/DataTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/DataTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/common/ParamInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/ParamInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/common/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/common/WebResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/WebResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/config/DefaultPageConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/controller/OrderParseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/OrderParseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/entity/MessageRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/MessageRegular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/entity/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/MessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/repository/MessageRegularRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/MessageRegularRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/repository/MessageTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/MessageTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/service/OrderDataRegularService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/service/OrderDataRegularService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiao/order/parse/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/MySpringBootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/common/DataTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/common/ParamInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/common/ResultEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/common/WebResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/config/DefaultPageConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/controller/OrderParseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/entity/MessageRegular$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/entity/MessageRegular$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/entity/MessageRegular$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/entity/MessageRegular.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/entity/MessageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/repository/MessageRegularRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/repository/MessageTypeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/service/OrderDataRegularService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiao/order/parse/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
@@ -377,17 +29,17 @@
       <file leaf-file-name="num.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
+            <state relative-caret-position="1062">
               <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numbChou.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="numbChou.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1016">
-              <caret line="2469" lean-forward="true" selection-start-line="2469" selection-end-line="2469" />
+            <state relative-caret-position="630">
+              <caret line="2466" column="45" selection-start-line="2466" selection-start-column="45" selection-end-line="2466" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -408,7 +60,7 @@
       <file leaf-file-name="ClientCouponController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
+            <state relative-caret-position="720">
               <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
             </state>
           </provider>
@@ -426,7 +78,7 @@
       <file leaf-file-name="num.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="1242">
               <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
             </state>
           </provider>
@@ -435,15 +87,10 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="396">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="turntable-bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable-bg.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="turntable2.png" pinned="false" current-in-tab="false">
@@ -483,7 +130,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
+            <state relative-caret-position="2718">
               <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
             </state>
           </provider>
@@ -492,19 +139,28 @@
       <file leaf-file-name="introducer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="312">
+              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="num.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png">
+      <file leaf-file-name="AdminSpringBootApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/AdminSpringBootApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hf_bg-old.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="hf_bg.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.jpeg">
+      <file leaf-file-name="hf_bg.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -519,7 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>daterangepicker</find>
       <find>draw_span</find>
       <find>请重新获取</find>
       <find>btn</find>
@@ -549,6 +204,7 @@
       <find>numbers</find>
       <find>draw_btn</find>
       <find>/draw</find>
+      <find>hf_bg</find>
     </findStrings>
     <replaceStrings>
       <replace>com.jiao.order.parse.controller</replace>
@@ -609,12 +265,12 @@
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WxController.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/ClientSpringBootApplication.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/config/ClientConfiguration.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/style.css" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" />
       </list>
     </option>
   </component>
@@ -664,6 +320,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -777,33 +434,6 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -824,17 +454,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="fireworks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
@@ -857,7 +476,7 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="hbycj" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
@@ -867,7 +486,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -885,24 +503,24 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin/src/main/resources/static/admin/js" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/css" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/images" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/js" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.jiao.client.controller.weichat" />
       <recent name="com.jiao.order.parse.interceptor" />
       <recent name="com.jiao.order.parse.entity.coupon" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/main/resources/static/admin/js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1049,12 +667,28 @@
       <workItem from="1598077160238" duration="7885000" />
       <workItem from="1598700224674" duration="50637000" />
       <workItem from="1598844598248" duration="44675000" />
-      <workItem from="1599218736708" duration="17702000" />
+      <workItem from="1599218736708" duration="18181000" />
+      <workItem from="1600080972112" duration="3016000" />
     </task>
+    <task id="LOCAL-00001" summary="抽奖活动">
+      <created>1599481447858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599481447858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="抽奖活动">
+      <created>1599481567303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599481567303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151702000" />
+    <option name="totallyTimeSpent" value="155197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="0" />
@@ -1076,12 +710,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983872" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32983872" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983872" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553614" />
       <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553614" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32983872" />
@@ -1101,22 +735,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="抽奖活动" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽奖活动" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/digest/DigestUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3222">
@@ -1145,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,11 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="707">
           <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,12 +910,6 @@
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/gx.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable-bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1311,15 +921,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
+        <state relative-caret-position="2718">
           <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/1_01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/bj.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/dateFormat.js">
@@ -1331,22 +938,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="1242">
           <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
+        <state relative-caret-position="1062">
           <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
@@ -1359,14 +959,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="396">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
+        <state relative-caret-position="720">
           <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
         </state>
       </provider>
@@ -1380,12 +980,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1016">
-          <caret line="2469" lean-forward="true" selection-start-line="2469" selection-end-line="2469" />
+        <state relative-caret-position="630">
+          <caret line="2466" column="45" selection-start-line="2466" selection-start-column="45" selection-end-line="2466" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/bj.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/gx.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/AdminSpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
