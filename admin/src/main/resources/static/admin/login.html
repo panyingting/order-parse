@@ -12,30 +12,6 @@
     <script src="js/pintuer.js"></script>
     <script>
         $(function () {
-            // $("#submit").click(function () {
-            //     var username = $("#username").val();
-            //     var password = $("#password").val();
-            //
-            //     $.ajax({
-            //         type: "POST",
-            //         url: "/user/login",
-            //         contentType: 'application/x-www-form-urlencoded',
-            //         data: {"username":username, "password":password},
-            //         dataType: "json",
-            //         success: function(data){
-            //             if(data.success){
-            //                 alert("登录成功");
-            //                 window.location.href = "index.html";
-            //             }else {
-            //                 alert(data.msg);
-            //             }
-            //         },
-            //         error:function(XMLHttpRequest, textStatus, errorThrown){
-            //             alert("异常"+textStatus+" :"+errorThrown);
-            //         }
-            //     });
-            // });
-
             // 报文信息提交
             $("#submit").click(function () {
 
@@ -43,13 +19,13 @@
                     var password = $("#password").val();
                 $.ajax({
                     type: "POST",
-                    url: "/user/login",
+                    url: "/admin/user/login",
                     contentType: 'application/x-www-form-urlencoded;charset=utf-8',
                     data: {"username":username, "password":password},
                     success: function(data){
                         if(data.success){
                             alert("登录成功");
-                            $(location).attr('href', 'couponList.html');
+                            $(location).attr('href', 'index.html');
                         }
                         else{
                             alert("登录失败："+data.msg);
@@ -71,7 +47,6 @@
             <div style="height:150px;"></div>
             <div class="media media-y margin-big-bottom">           
             </div>         
-            <form >
             <div class="panel loginbox">
                 <div class="text-center margin-big padding-big-top"><h1>后台管理中心</h1></div>
                 <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
@@ -90,7 +65,6 @@
                 </div>
                 <div style="padding:30px;"><input type="submit" id="submit" class="button button-block bg-main text-big input-big" value="登录"></div>
             </div>
-            </form>          
         </div>
     </div>
 </div>

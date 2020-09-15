@@ -11,10 +11,6 @@ $(function () {
 function init() {
     var obj = urlParameters();
 
-    if(obj.id === undefined){
-        $.MsgBox.Alert("温馨提示", "请重新获取连接");
-        return;
-    }
     // 请求登录接口
     $.ajax({
         type: "POST",

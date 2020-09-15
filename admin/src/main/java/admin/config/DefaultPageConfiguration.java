@@ -13,7 +13,7 @@ public class DefaultPageConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("one.html");
+        registry.addViewController("/").setViewName("admin/index.html");
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
     }
 
@@ -23,11 +23,13 @@ public class DefaultPageConfiguration implements WebMvcConfigurer {
         InterceptorRegistration registration = registry.addInterceptor(new AdminInterceptor());
         registration.addPathPatterns("/**");                      //所有路径都被拦截
         registration.excludePathPatterns(                         //添加不拦截路径
-                "/user/login",
-                "/**/*.html",            //登录
+                "/admin/user/login",
+                "/**/login.html",            //登录
                 "/**/*.js",              //js静态资源
                 "/**/*.css",             //css静态资源
                 "/**/*.png",
+                "/**/*.jpg",
+                "/**/*.jpeg",
                 "/**/*.ttf"
         );
     }

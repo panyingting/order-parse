@@ -42,6 +42,12 @@ public class CouponController {
         return WebResult.sucessResult(couponRepository.findAll());
     }
 
+
+    @RequestMapping("/getCoupon")
+    public WebResult getAllCouponList( @RequestParam("id") int id){
+        return WebResult.sucessResult(couponRepository.getById(id));
+    }
+
     @RequestMapping("/deleteCoupon")
     public WebResult deleteCoupon(CouponEntity couponEntity){
 

@@ -56,9 +56,9 @@ public class ClientCouponController {
 
         List<CouponAccountEntity> couponAccountEntityList = couponAccountRepository.findByUserNameAndCouponId(phoneNum.toString(), couponId);
 
-//        if(couponAccountEntityList.size() > 0){
-//            return WebResult.failResult(ResultEnum.REPEAT_IN);
-//        }
+        if(couponAccountEntityList.size() > 0){
+            return WebResult.failResult(ResultEnum.REPEAT_IN);
+        }
         CouponEntity couponEntity = couponRepository.getById(couponId);
         List<Integer> money = JSON.parseObject( couponEntity.getDesc(), new TypeReference<List<Integer>>(){});
 
@@ -115,17 +115,25 @@ public class ClientCouponController {
     }
 
     @RequestMapping("/getCouponById")
-    public WebResult getCoupon( @RequestParam("encodeId") String encodeId ){
+    public WebResult getCoupon( String encodeId ){
         try {
-            String idStr = EncryptUtil.getInstance().XORdecode(encodeId);
-            if( StringUtils.isEmpty(idStr)){
-                return WebResult.failResult("参数错误，请稍后再试");
+            if( !StringUtils.isEmpty(encodeId)){
+                String idStr = EncryptUtil.getInstance().XORdecode(encodeId);
+                if( StringUtils.isEmpty(idStr)){
+                    return WebResult.failResult("参数错误，请稍后再试");
+                }
+                CouponEntity couponEntity = couponRepository.getById( Integer.parseInt(idStr));
+                if(couponEntity == null){
+                    return WebResult.failResult("参数错误，获取不到活动劵信息");
+                }
+                return WebResult.sucessResult(couponEntity);
+            }else {
+                List<CouponEntity> couponEntityList = couponRepository.findByIsDefault(1);
+                if(couponEntityList.size() > 0){
+                    return WebResult.sucessResult(couponEntityList.get(0));
+                }
+                return WebResult.failResult("找不到优惠券信息");
             }
-            CouponEntity couponEntity = couponRepository.getById( Integer.parseInt(idStr));
-            if(couponEntity == null){
-                return WebResult.failResult("参数错误，获取不到活动劵信息");
-            }
-            return WebResult.sucessResult(couponEntity);
         }catch (Exception ex){
             LOGGER.error("获取优惠券信息异常, encodeId:{}", encodeId, ex);
             return WebResult.failResult("参数错误，请稍后再试");

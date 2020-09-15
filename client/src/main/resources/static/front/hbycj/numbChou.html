@@ -76,7 +76,7 @@
             <div class="num num2"></div>
             <div class="num num3"></div>
         </div>
-        <div id="draw_btn" class="btn">开始抽奖</div>
+        <div id="draw_btn" class="btn">开 始 抽 奖</div>
     </div>
 </div>
 
@@ -2424,7 +2424,9 @@
                         var num_arr = [0,result.substr(0, 1),result.substr(-1)];
                     }
                     else{
-                        var num_arr = (result+'').split('');}
+                        var num_arr = (result+'').split('');
+                    }
+
                     $(".num").each(function(index){
                         var _num = $(this);
                         setTimeout(function(){
@@ -2451,15 +2453,17 @@
                                                     $("#remain_span").text( parseInt($("#remain_span").text()) - 1);
                                                     $("#draw_span").text( parseInt($("#draw_span").text()) + 1);
                                                     changeTxt = true;
-                                                    sleep(3000);
-                                                    $("head").append("<link>");
-                                                    var toolbarCss = $("head").children(":last");
-                                                    toolbarCss.attr({
-                                                        rel: "stylesheet",
-                                                        type: "text/css",
-                                                        href:  "css/style.css"
-                                                    });
-                                                    $("#fireworks").css({"display":"block"});
+
+                                                    setTimeout(function () {
+                                                        $("head").append("<link>");
+                                                        var toolbarCss = $("head").children(":last");
+                                                        toolbarCss.attr({
+                                                            rel: "stylesheet",
+                                                            type: "text/css",
+                                                            href:  "css/style.css"
+                                                        });
+                                                        $("#fireworks").css({"display":"block"});
+                                                    }, 3000);
                                                 }
                                             },
                                             error:function(XMLHttpRequest, textStatus, errorThrown){

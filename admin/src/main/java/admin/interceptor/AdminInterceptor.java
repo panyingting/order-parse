@@ -21,15 +21,15 @@ public class AdminInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 //        System.out.println("执行了TestInterceptor的preHandle方法");
         try {
-            if(request.getRequestURI().contains("admin")){
-                //统一拦截（查询当前session是否存在user）(这里user会在每次登陆成功后，写入session)
-                String username = (String)request.getSession().getAttribute("loginUser");
-                if(username!=null){
-                    return true;
-                }
-                response.sendRedirect(request.getContextPath()+"/admin/login.html");
-                return false;//如果设置为false时，被请求时，拦截器执行到此处将不会继续操作
+            if(request.getRequestURI().contains("admin") || request.getRequestURI().contains("Admin")){
             }
+            //统一拦截（查询当前session是否存在user）(这里user会在每次登陆成功后，写入session)
+            String username = (String)request.getSession().getAttribute("loginUser");
+            if(username!=null){
+                return true;
+            }
+            response.sendRedirect(request.getContextPath()+"/admin/login.html");
+            return false;//如果设置为false时，被请求时，拦截器执行到此处将不会继续操作
         } catch (IOException e) {
             e.printStackTrace();
         }

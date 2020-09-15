@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a4f1f97-1700-491e-a355-144aa8625ee0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num-old.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/admin/config/DefaultPageConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/admin/config/DefaultPageConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/admin/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/admin/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/admin/interceptor/AdminInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/admin/interceptor/AdminInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/static/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/static/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
@@ -29,8 +46,35 @@
       <file leaf-file-name="num.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="376">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="num.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introducer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="142" column="37" lean-forward="true" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientCouponController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="130" column="87" selection-start-line="130" selection-start-column="87" selection-end-line="130" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -38,8 +82,8 @@
       <file leaf-file-name="numbChou.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="2466" column="45" selection-start-line="2466" selection-start-column="45" selection-end-line="2466" selection-end-column="45" />
+            <state relative-caret-position="-888">
+              <caret line="2415" column="26" lean-forward="true" selection-start-line="2415" selection-start-column="26" selection-end-line="2415" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,120 +92,121 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sweet-alert.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/sweet-alert.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5754" selection-start-column="5754" selection-end-column="5754" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientCouponController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="num.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="turntable2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="turntable.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="gx.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/gx.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="bj.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/bj.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="dateFormat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/dateFormat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="342">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_01.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/1_01.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="column.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/column.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/index.html">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2718">
-              <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
-            </state>
+            <state relative-caret-position="-1693" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="introducer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
+      <file leaf-file-name="addCoupon.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="604">
+              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminSpringBootApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/AdminSpringBootApplication.java">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addCoupon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="53" column="96" selection-start-line="53" selection-start-column="87" selection-end-line="53" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="couponList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/couponList.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hf_bg-old.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="couponList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="181" selection-start-line="15" selection-start-column="172" selection-end-line="15" selection-end-column="181" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="hf_bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="82" column="104" lean-forward="true" selection-start-line="82" selection-start-column="104" selection-end-line="82" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="couponList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="66" column="63" lean-forward="true" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="212" column="24" selection-start-line="212" selection-start-column="15" selection-end-line="212" selection-end-column="24" />
+              <folding>
+                <element signature="e#3958#3959#0" expanded="true" />
+                <element signature="e#3990#3991#0" expanded="true" />
+                <element signature="e#4041#4042#0" expanded="true" />
+                <element signature="e#4083#4084#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -175,13 +220,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>draw_span</find>
-      <find>请重新获取</find>
-      <find>btn</find>
-      <find>stamp03</find>
-      <find>faceValue</find>
-      <find>remark</find>
-      <find>优惠券信息为</find>
       <find>.par {</find>
       <find>stamp</find>
       <find>font</find>
@@ -189,7 +227,6 @@
       <find>class</find>
       <find>pagelist</find>
       <find>requestMappingHandlerMapping</find>
-      <find>clientLoginController</find>
       <find>loginController</find>
       <find>/user/login</find>
       <find>/user/login/client</find>
@@ -202,9 +239,17 @@
       <find>mingdan</find>
       <find>#demo</find>
       <find>numbers</find>
-      <find>draw_btn</find>
       <find>/draw</find>
       <find>hf_bg</find>
+      <find>getCouponById</find>
+      <find>clientLoginController</find>
+      <find>lientLoginController</find>
+      <find>draw_btn</find>
+      <find>.num</find>
+      <find>dateFormat</find>
+      <find>Format</find>
+      <find>.format</find>
+      <find>请重新获取连接</find>
     </findStrings>
     <replaceStrings>
       <replace>com.jiao.order.parse.controller</replace>
@@ -220,33 +265,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/common/EncryptUtil.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/index.html" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponAccountRepository.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/HtmlController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/dateFormat.js" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.jsp" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponAccountEntity.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/MyDialog.js" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/dateFormat.js" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/couponAccountList.html" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponAccountList.js" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/couponList.html" />
-        <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/java/admin/AdminSpringBootApplication.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/config/DefaultPageConfiguration.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/admin/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientLoginController.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/couponList.js" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/lanren.css" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/HttpResponseType.java" />
@@ -266,11 +299,23 @@
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/ClientSpringBootApplication.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/config/ClientConfiguration.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/style.css" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/admin/interceptor/AdminInterceptor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/admin/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/admin/config/DefaultPageConfiguration.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/login.html" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html" />
       </list>
     </option>
   </component>
@@ -318,9 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,6 +455,27 @@
             <path>
               <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
               <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -427,6 +490,33 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
@@ -480,12 +570,93 @@
             </path>
             <path>
               <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="hbycj" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-parse" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,24 +674,24 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks" />
-      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jiao.client.controller.weichat" />
-      <recent name="com.jiao.order.parse.interceptor" />
-      <recent name="com.jiao.order.parse.entity.coupon" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/admin/src/main/resources/static/admin/js" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/css" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/images" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/front/hbycj/js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiao.client.controller.weichat" />
+      <recent name="com.jiao.order.parse.interceptor" />
+      <recent name="com.jiao.order.parse.entity.coupon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front/fireworks" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources/static/front" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -668,7 +839,8 @@
       <workItem from="1598700224674" duration="50637000" />
       <workItem from="1598844598248" duration="44675000" />
       <workItem from="1599218736708" duration="18181000" />
-      <workItem from="1600080972112" duration="3016000" />
+      <workItem from="1600080972112" duration="3046000" />
+      <workItem from="1600146927849" duration="15579000" />
     </task>
     <task id="LOCAL-00001" summary="抽奖活动">
       <created>1599481447858</created>
@@ -684,14 +856,22 @@
       <option name="project" value="LOCAL" />
       <updated>1599481567303</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="抽奖活动">
+      <created>1600089456220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600089456220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155197000" />
+    <option name="totallyTimeSpent" value="170806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039715" side_tool="true" weight="0.4" />
@@ -703,16 +883,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.2701613" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.2701613" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49960285" weight="0.32983872" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983872" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983872" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32983872" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983872" />
       <window_info anchor="bottom" id="Problems" order="8" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553614" />
@@ -743,158 +923,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="56" />
+      <option name="time" value="65" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/digest/DigestUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3222">
-          <caret line="261" column="25" selection-start-line="261" selection-start-column="25" selection-end-line="261" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WeixinAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URLEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2934">
-          <caret line="199" column="25" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WXUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WeixinMessageDigestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/interceptor/OAuth2Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/weichat/WxController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/pointer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/ParticleSmoke.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="1561" column="13" selection-start-line="1561" selection-start-column="13" selection-end-line="1561" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/ClientSpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="13521" column="4" selection-start-line="13521" selection-start-column="4" selection-end-line="13521" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="15892" column="17" selection-start-line="15892" selection-start-column="17" selection-end-line="15892" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/ViewControllerRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/config/ClientConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/Snow.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/hongbaoyu/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/choujiang/images/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/display.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/number.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/redpacket.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/timg.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/bg-new.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/timg2.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/11.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -907,9 +939,6 @@
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/imges/1_01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable-bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -919,36 +948,8 @@
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/turntable.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2718">
-          <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/1_01.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/dateFormat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/fireworks/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -964,47 +965,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/sweet-alert.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5754" selection-start-column="5754" selection-end-column="5754" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="2466" column="45" selection-start-line="2466" selection-start-column="45" selection-end-line="2466" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/bj.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/gx.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg">
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/one.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/couponAccountList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old-new.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/controller/AdminOperationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1012,6 +1019,200 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/config/DefaultPageConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/interceptor/AdminInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/sweet-alert.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5768" lean-forward="true" selection-start-column="5768" selection-end-column="5768" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="15912" column="17" selection-start-line="15912" selection-start-column="17" selection-end-line="15912" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/gx.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/ParticleSmoke.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num-old.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/hf_bg-old.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/images/num.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/css/num.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/column.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/dateFormat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/couponList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="82" column="104" lean-forward="true" selection-start-line="82" selection-start-column="104" selection-end-line="82" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/couponList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/introducer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="142" column="37" lean-forward="true" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/js/num.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/js/couponList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="181" selection-start-line="15" selection-start-column="172" selection-end-line="15" selection-end-column="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/front/hbycj/numbChou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="2415" column="26" lean-forward="true" selection-start-line="2415" selection-start-column="26" selection-end-line="2415" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/jiao/client/controller/ClientCouponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="130" column="87" selection-start-line="130" selection-start-column="87" selection-end-line="130" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/repository/CouponRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jiao/order/parse/entity/coupon/CouponEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="212" column="24" selection-start-line="212" selection-start-column="15" selection-end-line="212" selection-end-column="24" />
+          <folding>
+            <element signature="e#3958#3959#0" expanded="true" />
+            <element signature="e#3990#3991#0" expanded="true" />
+            <element signature="e#4041#4042#0" expanded="true" />
+            <element signature="e#4083#4084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/addCoupon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/js/addCoupon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="53" column="96" selection-start-line="53" selection-start-column="87" selection-end-line="53" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/admin/controller/CouponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="66" column="63" lean-forward="true" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
         </state>
       </provider>
     </entry>

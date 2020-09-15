@@ -13,7 +13,7 @@ $(function(){
                 $.each(dataArr, function(index,element){
                     var startTime = new Date(element.limitStartTime).Format("yyyy-MM-dd HH:mm");
                     var endTime = new Date(element.limitEndTime).Format("yyyy-MM-dd HH:mm");
-                   $("#data_table tbody").append(  tr(element.id, element.name, element.initNum, element.deliveryNum, element.desc, element.idEncode, element.type, startTime, endTime));
+                   $("#data_table tbody").append(  tr(element.id, element.name, element.initNum, element.deliveryNum, element.desc, element.idEncode, element.type, element.isDefault, startTime, endTime));
                 });
             }else {
                 alert(data.msg);
@@ -25,7 +25,7 @@ $(function(){
     });
 });
 
-function tr(id, name, initNum, deliveryNum, desc, idEncode, type, startTime, endTime) {
+function tr(id, name, initNum, deliveryNum, desc, idEncode, type, isDefault, startTime, endTime) {
     return "<tr>\n" +
         "          <td><input type=\"checkbox\" name=\"id\" value=\""+id+"\" />"+id+"</td>\n" +
         "          <td>"+name+"</td>\n" +
@@ -36,7 +36,9 @@ function tr(id, name, initNum, deliveryNum, desc, idEncode, type, startTime, end
         "           <td>"+endTime+"</td>         \n" +
         "           <td>"+idEncode+"</td>         \n" +
         "          <td>"+type+"</td>\n" +
-        "          <td><div class=\"button-group\"> <a class=\"button border-red\" href=\"javascript:void(0)\" onclick=\"return del("+id+")\"><span class=\"icon-trash-o\"></span> 删除</a> </div></td>\n" +
+        "          <td>"+ ((isDefault === 1) ? "是" : "否")+"</td>\n" +
+        "          <td><div class=\"button-group\">  <a class=\"button border-main\" href=\"addCoupon.html?id="+id+"\"><span class=\"icon-edit\"></span> 修改</a> " +
+        "                       <a class=\"button border-red\" href=\"javascript:void(0)\" onclick=\"return del("+id+")\"><span class=\"icon-trash-o\"></span> 删除</a> </div></td>\n" +
         "        </tr>";
 }
 

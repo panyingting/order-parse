@@ -21,7 +21,7 @@ public class LoginController {
     @RequestMapping("/user/login")
     @ResponseBody
     public WebResult adminLogin( @RequestParam("username") String username, @RequestParam("password") String password, HttpSession session) {
-        if (!StringUtils.isEmpty(username) && "123456".equals(password)) {
+        if (!StringUtils.isEmpty(username) && "admin123".equals(password)) {
             session.setAttribute("loginUser", username);
             return WebResult.sucessResult();
         } else {
@@ -32,6 +32,6 @@ public class LoginController {
     @RequestMapping("/user/logout")
     public String logout(HttpSession session) {
         session.invalidate();
-        return "admin/admin_login.html";
+        return "admin/login.html";
     }
 }

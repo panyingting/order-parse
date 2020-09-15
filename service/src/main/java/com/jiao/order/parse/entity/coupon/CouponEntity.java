@@ -76,6 +76,11 @@ public class CouponEntity extends BaseAutoIdEntity {
 
     private String idEncode;
 
+    /**
+     * 默认系统优惠券 默认1 否则0；
+     */
+    private Integer isDefault;
+
 
     @Column(name = "face_value")
     public long getFaceValue() {
@@ -202,4 +207,14 @@ public class CouponEntity extends BaseAutoIdEntity {
     public void setIdEncode(String idEncode) {
         this.idEncode = idEncode;
     }
+
+    @Column(name="is_default")
+    public Integer getIsDefault() {
+        return isDefault;
+    }
+
+    public void setIsDefault(Integer isDefault) {
+        this.isDefault = isDefault;
+    }
+
 }

@@ -8,17 +8,19 @@
     <title>网站信息</title>  
     <link rel="stylesheet" href="css/pintuer.css">
     <link rel="stylesheet" href="css/admin.css">
-  <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
 
   <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+  <script type="text/javascript" src="js/dateFormat.js"></script>
     <script src="js/pintuer.js"></script>  
     <script src="js/addCoupon.js"></script>
 </head>
 <body>
 <div class="panel admin-panel">
-  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 优惠券信息</strong></div>
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 优惠券操作</strong></div>
   <div class="body-content">
     <dev class="form-x" >
+      <input type="hidden" name="id" value="" />
       <div class="form-group">
         <div class="label">
           <label>优惠券名称：</label>
@@ -28,6 +30,19 @@
           <div class="tips"></div>
         </div>
       </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>系统默认优惠券：</label>
+        </div>
+        <div class="field">
+          <select class="input" name="isDefault" id="isDefault">
+            <option value="0" >否</option>
+            <option value="1" selected>是</option>
+          </select>
+        </div>
+      </div>
+
 
       <div class="form-group">
         <div class="label">
