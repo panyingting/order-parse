@@ -1,7 +1,7 @@
 
 $(function(){
 
-    query(1, 2);
+    query(1, 10);
 
 });
 

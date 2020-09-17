@@ -47,6 +47,9 @@ $(function(){
         if(!checkParam(limitEndTime) || limitEndTime <=0){
             alert("活动结束时间不能为空2"); return;
         }
+        if(id === ""){
+            id = 0;
+        }
         $.ajax({
             type: "POST",
             url: "/coupon/addCoupon",

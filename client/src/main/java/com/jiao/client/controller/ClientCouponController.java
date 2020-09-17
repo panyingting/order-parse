@@ -83,20 +83,28 @@ public class ClientCouponController {
             return WebResult.failResult("系统参数错误，请刷新后再试");
         }
 
-        CouponEntity couponEntity = couponRepository.getById((int)couponAccountEntity.getCouponId());
-        if(couponEntity == null){
-            return WebResult.failResult("优惠券信息为空，请刷新后再试");
-        }
-        couponEntity.setDeliveryNum( couponEntity.getDeliveryNum() + 1);
-        couponAccountEntity.setUserName(phone);
-        couponAccountEntity.setPhone( phone);
-        couponAccountEntity.setCouponName( couponEntity.getName() );
-        couponAccountEntity.setEffectTime( couponEntity.getLimitStartTime());
-        couponAccountEntity.setExpirationTime( couponEntity.getLimitEndTime());
-        couponAccountEntity.setGetTime( System.currentTimeMillis());
+        synchronized(this){
+            List<CouponAccountEntity> couponAccountEntityList = couponAccountRepository.findByUserNameAndCouponId(phone, couponAccountEntity.getCouponId());
 
-        couponRepository.save(couponEntity);
-        couponAccountRepository.save(couponAccountEntity);
+            if(couponAccountEntityList.size() > 0){
+                LOGGER.warn("重复优惠券领取, phone:{}", phone);
+                return WebResult.sucessResult();
+            }
+            CouponEntity couponEntity = couponRepository.getById((int)couponAccountEntity.getCouponId());
+            if(couponEntity == null){
+                return WebResult.failResult("优惠券信息为空，请刷新后再试");
+            }
+            couponEntity.setDeliveryNum( couponEntity.getDeliveryNum() + 1);
+            couponAccountEntity.setUserName(phone);
+            couponAccountEntity.setPhone( phone);
+            couponAccountEntity.setCouponName( couponEntity.getName() );
+            couponAccountEntity.setEffectTime( couponEntity.getLimitStartTime());
+            couponAccountEntity.setExpirationTime( couponEntity.getLimitEndTime());
+            couponAccountEntity.setGetTime( System.currentTimeMillis());
+
+            couponRepository.save(couponEntity);
+            couponAccountRepository.save(couponAccountEntity);
+        }
 
         return WebResult.sucessResult();
     }
