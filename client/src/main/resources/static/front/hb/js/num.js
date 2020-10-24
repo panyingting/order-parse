@@ -22,6 +22,7 @@ function init() {
             if(!data.success || data.data == null){
                 $.MsgBox.Alert("温馨提示", "获取优惠券信息失败");
             } else {
+                $("title").text(data.data.name);
                 $("#draw_span").text(data.data.deliveryNum);
                 $("#remain_span").text(data.data.initNum - data.data.deliveryNum);
                 startTime = new Date(data.data.limitStartTime);

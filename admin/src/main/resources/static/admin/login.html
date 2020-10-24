@@ -24,7 +24,6 @@
                     data: {"username":username, "password":password},
                     success: function(data){
                         if(data.success){
-                            alert("登录成功");
                             $(location).attr('href', 'index.html');
                         }
                         else{

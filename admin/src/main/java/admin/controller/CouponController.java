@@ -1,5 +1,6 @@
 package admin.controller;
 
+import admin.config.Security;
 import com.alibaba.fastjson.JSON;
 import com.jiao.order.parse.common.EncryptUtil;
 import com.jiao.order.parse.common.WebResult;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @RestController
 @RequestMapping("/coupon")
@@ -30,6 +32,7 @@ public class CouponController {
 
 
     @RequestMapping("/getAllCouponAccountList")
+    @Security
     public WebResult getAllCouponAccountList(@RequestParam("page") int page, @RequestParam("size") int size){
         PageRequest pageRequest = PageRequest.of(page-1, size);
 
@@ -38,17 +41,21 @@ public class CouponController {
 
 
     @RequestMapping("/getAllCouponList")
+    @Security
     public WebResult getAllCouponList(){
-        return WebResult.sucessResult(couponRepository.findAll());
+        List<CouponEntity> couponEntityList = couponRepository.findAll();
+        return WebResult.sucessResult(couponEntityList);
     }
 
 
     @RequestMapping("/getCoupon")
+    @Security
     public WebResult getAllCouponList( @RequestParam("id") int id){
         return WebResult.sucessResult(couponRepository.getById(id));
     }
 
     @RequestMapping("/deleteCoupon")
+    @Security
     public WebResult deleteCoupon(CouponEntity couponEntity){
 
         if(couponEntity.getId() <= 0){
@@ -59,6 +66,7 @@ public class CouponController {
     }
 
     @RequestMapping("/deleteAccountCoupon")
+    @Security
     public WebResult deleteAccountCoupon(CouponAccountEntity accountEntity){
 
         if(accountEntity.getId() <= 0){
@@ -69,6 +77,7 @@ public class CouponController {
     }
 
     @RequestMapping("/addCoupon")
+    @Security
     public WebResult addCoupon( CouponEntity couponEntity){
 
         if(couponEntity.getInitNum() <= 0){

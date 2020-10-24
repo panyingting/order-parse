@@ -5,23 +5,22 @@
 <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="format-detection" content="telphone=no, email=no">
 <title>抽奖活动</title>
-<script type="text/javascript" src="../../js/jquery.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/awardRotate.js"></script>
-<script src="js/sweet-alert.min.js"></script>
-<script type="text/javascript" src="js/ThreeCanvas.js"></script>
-<script type="text/javascript" src="js/Snow.js"></script>
-<script type="text/javascript" src="js/MyDialog.js"></script>
-<script type="text/javascript" src="js/num.js?31"></script>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/front/hb/js/easing.js"></script>
+<script type="text/javascript" src="/front/hb/js/awardRotate.js"></script>
+<script src="/front/hb/js/sweet-alert.min.js"></script>
+<script type="text/javascript" src="/front/hb/js/ThreeCanvas.js"></script>
+<script type="text/javascript" src="/front/hb/js/Snow.js"></script>
+<script type="text/javascript" src="/front/hb/js/MyDialog.js"></script>
+<script type="text/javascript" src="/front/hb/js/num.js?31"></script>
 
-<link rel="stylesheet" href="css/demo.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/sweet-alert.css">
-<link rel="stylesheet" type="text/css" href="css/num.css?321">
+<link rel="stylesheet" href="/front/hb/css/demo.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/front/hb/css/sweet-alert.css">
+<link rel="stylesheet" type="text/css" href="/front/hb/css/num.css?321">
 <!--<link rel="stylesheet" href="css/style.css">-->
 <style>
     .numbers, .count{
         font-size: 20px;
-
     }
     #remain_span,#draw_span, .count{
         font-weight: bold;
@@ -44,27 +43,38 @@
     </div>
     <div class="logo">
         <div id="demo" style="overflow:hidden;height:290px;line-height:22px;">
-            <img src="images/1_01.png" style="opacity:0.6;  width:150px; margin-top:10px;position: absolute;margin-left:180px;">
+            <img src="/front/hb/images/1_01.png" style="opacity:0.6;  width:150px; margin-top:10px;position: absolute;margin-left:180px;">
             <ul class="mingdan" id="holder"  >
-                <li>恭喜 136****0259 获得588元🧧</li>
-                <li>恭喜 132****4531 获得598元🧧</li>
-                <li>恭喜 150****4433 获得988元🧧</li>
-                <li>恭喜 182****5392 获得888元🧧</li>
-                <li>恭喜 138****0906 获得598元🧧</li>
-                <li>恭喜 137****1883 获得788元🧧</li>
-                <li>恭喜 150****0399 获得588元🧧</li>
-                <li>恭喜 136****4465 获得988元🧧</li>
-                <li>恭喜 182****5392 获得888元🧧</li>
-                <li>恭喜 138****0906 获得598元🧧</li>
-                <li>恭喜 137****1883 获得788元🧧</li>
-                <li>恭喜 150****0399 获得588元🧧</li>
-                <li>恭喜 136****4465 获得988元🧧</li>
-                <li>恭喜 150****0399 获得588元🧧</li>
-                <li>恭喜 136****4465 获得988元🧧</li>
-                <li>恭喜 182****5392 获得888元🧧</li>
-                <li>恭喜 138****0906 获得598元🧧</li>
-                <li>恭喜 137****1883 获得788元🧧</li>
-                <li>恭喜 150****0399 获得588元🧧</li>
+                <li>恭喜 136****0259 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 132****4531 获得<span class="money">598</span>元红包🧧</li>
+                <li>恭喜 150****4133 获得<span class="money">988</span>元红包🧧</li>
+                <li>恭喜 182****4302 获得<span class="money">888</span>元红包🧧</li>mingdan
+                <li>恭喜 138****0901 获得<span class="money">598</span>元红包🧧</li>
+                <li>恭喜 137****1088 获得<span class="money">788</span>元红包🧧</li>
+                <li>恭喜 150****0099 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 136****4465 获得<span class="money">988</span>元红包🧧</li>
+                <li>恭喜 182****5392 获得<span class="money">888</span>元红包🧧</li>
+                <li>恭喜 138****9006 获得<span class="money">598</span>元红包🧧</li>
+                <li>恭喜 137****1883 获得<span class="money">788</span>元红包🧧</li>
+                <li>恭喜 150****0399 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 136****4365 获得<span class="money">988</span>元红包🧧</li>
+                <li>恭喜 150****1349 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 136****4155 获得<span class="money">988</span>元红包🧧</li>
+                <li>恭喜 182****0392 获得<span class="money">888</span>元红包🧧</li>
+                <li>恭喜 138****0906 获得<span class="money">598</span>元红包🧧</li>
+                <li>恭喜 137****1803 获得<span class="money">788</span>元红包🧧</li>
+                <li>恭喜 150****0322 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 132****6392 获得<span class="money">888</span>元红包🧧</li>
+                <li>恭喜 132****4206 获得<span class="money">598</span>元红包🧧</li>
+                <li>恭喜 138****1783 获得<span class="money">788</span>元红包🧧</li>
+                <li>恭喜 151****0596 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 159****4350 获得<span class="money">988</span>元红包🧧</li>
+                <li>恭喜 151****8349 获得<span class="money">588</span>元红包🧧</li>
+                <li>恭喜 184****4115 获得<span class="money">988</span>元红包🧧</li>
+                <li>恭喜 182****0692 获得<span class="money">888</span>元红包🧧</li>
+                <li>恭喜 186****5906 获得<span class="money">598</span>元红包🧧</li>
+                <li>恭喜 138****2803 获得<span class="money">788</span>元红包🧧</li>
+                <li>恭喜 151****0392 获得<span class="money">588</span>元红包🧧</li>
             </ul>
 
         </div>
@@ -2360,7 +2370,7 @@
 
         $('#draw_btn').click(function () {
             if(changeTxt){
-                $(location).attr('href', 'couponList.html');
+                $(location).attr('href', '/front/hb/couponList.html');
             }else {
                 drawCoupon();
             }
@@ -2382,9 +2392,9 @@
 
                 // 未登录则返回false
                 if(!data.success){
-                    if(data.code === 3){
+                    if(data.code === 3){                   
                         $.MsgBox.Confirm("温馨提示","您已参与过本次抽奖活动，请直接到使用列表查看以及使用红包", function () {
-                            $(location).attr('href', 'couponList.html');
+                            $(location).attr('href', '/front/hb/couponList.html');
                         });
                         return;
                     }
@@ -2405,7 +2415,7 @@
                                 if(!data.success){
                                     $.MsgBox.Alert("登录失败", "登录失败请重试");
                                 } else {
-                                    $.MsgBox.Alert("登录成功", "登录成功,点击确认继续抽奖");
+                                    drawCoupon();
                                 }
                             },
                             error:function(XMLHttpRequest, textStatus, errorThrown){
@@ -2415,74 +2425,7 @@
                     });
 
                 } else {
-                    // 已登录
-                    isBegin = true;
-                    $(".num").css('backgroundPositionY',0);
-                    var result = data.data; // numRand();
-                    if(result<10){
-                        var num_arr = [0,0,result]
-                    }else if(result>=10&&result<100){
-                        result = result.toString();
-                        var num_arr = [0,result.substr(0, 1),result.substr(-1)];
-                    }
-                    else{
-                        var num_arr = (result+'').split('');
-                    }
-
-                    if(inflight){
-                        return;
-                    }
-                    inflight = true;
-
-                    $(".num").each(function(index){
-                        var _num = $(this);
-                        setTimeout(function(){
-                            _num.animate({
-                                backgroundPositionY: (u*60) - (u*num_arr[index])
-                            },{
-                                duration: 6000+index*3000,
-                                easing: "easeInOutCirc",
-                                complete: function(){
-                                    if(index === 2){
-                                        isBegin = false;
-                                        $.ajax({
-                                            type: "POST",
-                                            url: "/coupon/save",
-                                            contentType: 'application/x-www-form-urlencoded',
-                                            data : {"faceValue": result, "couponId":commmonObj.couponId},
-                                            dataType: "json",
-                                            success: function(data){
-                                                if(!data.success){
-                                                    $.MsgBox.Alert("优惠券保存失败", data.msg);
-                                                } else {
-                                                    swal({   title: "获得"+result+"红包，可用于购买黑发产品",   imageUrl: "images/gx.png" });
-                                                    $("#draw_btn").text("查看我的优惠券");
-                                                    $("#remain_span").text( parseInt($("#remain_span").text()) - 1);
-                                                    $("#draw_span").text( parseInt($("#draw_span").text()) + 1);
-                                                    changeTxt = true;
-
-                                                    setTimeout(function () {
-                                                        $("head").append("<link>");
-                                                        var toolbarCss = $("head").children(":last");
-                                                        toolbarCss.attr({
-                                                            rel: "stylesheet",
-                                                            type: "text/css",
-                                                            href:  "css/style.css"
-                                                        });
-                                                        $("#fireworks").css({"display":"block"});
-                                                    }, 3000);
-                                                }
-                                            },
-                                            error:function(XMLHttpRequest, textStatus, errorThrown){
-                                                alert(textStatus+" :"+errorThrown);
-                                            }
-                                        });
-                                    }
-
-                                }
-                            });
-                        }, index * 300);
-                    });
+                    doChouJiang(data);
                 }
             },
             error:function(XMLHttpRequest, textStatus, errorThrown){
@@ -2490,6 +2433,77 @@
             }
         });
 
+    }
+    
+    function doChouJiang(data) {
+        // 已登录
+        isBegin = true;
+        $(".num").css('backgroundPositionY',0);
+        var result = data.data; // numRand();
+        if(result<10){
+            var num_arr = [0,0,result]
+        }else if(result>=10&&result<100){
+            result = result.toString();
+            var num_arr = [0,result.substr(0, 1),result.substr(-1)];
+        }
+        else{
+            var num_arr = (result+'').split('');
+        }
+
+        if(inflight){
+            return;
+        }
+        inflight = true;
+
+        $(".num").each(function(index){
+            var _num = $(this);
+            setTimeout(function(){
+                _num.animate({
+                    backgroundPositionY: (u*60) - (u*num_arr[index])
+                },{
+                    duration: 6000+index*3000,
+                    easing: "easeInOutCirc",
+                    complete: function(){
+                        if(index === 2){
+                            isBegin = false;
+                            $.ajax({
+                                type: "POST",
+                                url: "/coupon/save",
+                                contentType: 'application/x-www-form-urlencoded',
+                                data : {"faceValue": result, "couponId":commmonObj.couponId},
+                                dataType: "json",
+                                success: function(data){
+                                    if(!data.success){
+                                        $.MsgBox.Alert("优惠券保存失败", data.msg);
+                                    } else {
+                                        swal({   title: "获得"+result+"红包，可用于购买黑发产品",   imageUrl: "/front/hb/images/gx.png" });
+                                        $("#draw_btn").text("查看我的优惠券");
+                                        $("#remain_span").text( parseInt($("#remain_span").text()) - 1);
+                                        $("#draw_span").text( parseInt($("#draw_span").text()) + 1);
+                                        changeTxt = true;
+
+                                        setTimeout(function () {
+                                            $("head").append("<link>");
+                                            var toolbarCss = $("head").children(":last");
+                                            toolbarCss.attr({
+                                                rel: "stylesheet",
+                                                type: "text/css",
+                                                href:  "/front/hb/css/style.css"
+                                            });
+                                            $("#fireworks").css({"display":"block"});
+                                        }, 3000);
+                                    }
+                                },
+                                error:function(XMLHttpRequest, textStatus, errorThrown){
+                                    alert(textStatus+" :"+errorThrown);
+                                }
+                            });
+                        }
+
+                    }
+                });
+            }, index * 300);
+        });
     }
 
     function AutoScroll(obj) {

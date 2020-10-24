@@ -13,7 +13,9 @@ public class DefaultPageConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("admin/index.html");
+//        registry.addViewController("/").setViewName("admin/index.html");
+//        registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
+        registry.addViewController("/").setViewName("/front/hb/numbChou.html");
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
     }
 

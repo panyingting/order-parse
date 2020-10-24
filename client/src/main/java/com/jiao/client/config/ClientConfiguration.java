@@ -13,7 +13,7 @@ public class ClientConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("/front/hbycj/introducer.html?id=EBEE");
+        registry.addViewController("/").setViewName("/front/hb/numbChou.html");
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
     }
 

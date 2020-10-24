@@ -44,7 +44,7 @@ public class ClientLogAspect {
      *
      * 方法调用前触发 记录开始时间
      */
-    @Before("execution(* com.jiao.order.parse.controller..*.*(..))")
+    @Before("execution(* com.jiao.client.controller..*.*(..))")
     public void doBeforeInServiceLayer() {
         startTimeMillis = System.currentTimeMillis();
     }
@@ -53,7 +53,7 @@ public class ClientLogAspect {
      * 方法调用后触发
      *  记录结束时间
      */
-    @After("execution(* com.jiao.order.parse.controller..*.*(..))")
+    @After("execution(* com.jiao.client.controller..*.*(..))")
     public void doAfterInServiceLayer() {
         endTimeMillis = System.currentTimeMillis();
         this.printOptLog();
@@ -62,7 +62,7 @@ public class ClientLogAspect {
     /**
      * 环绕触发
      */
-    @Around("execution(* com.jiao.order.parse.controller..*.*(..))")
+    @Around("execution(* com.jiao.client.controller..*.*(..))")
     public Object doAround(ProceedingJoinPoint pjp) throws Throwable {
         /*
          * 1.获取request信息
