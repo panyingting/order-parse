@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @RestController
@@ -87,8 +89,15 @@ public class CouponController {
             return WebResult.failResult("参数错误");
         }
         String [] arr = couponEntity.getDesc().split("[^0-9]+");
+        List<String> arrList = new ArrayList<>(arr.length);
+        for(int i=0; i<arr.length; i++){
+            if(StringUtils.isEmpty(arr[i])){
+                continue;
+            }
+            arrList.add(arr[i]);
+        }
 
-        couponEntity.setDesc(JSON.toJSONString(arr));
+        couponEntity.setDesc(JSON.toJSONString(arrList));
         couponRepository.save(couponEntity);
         couponEntity.setIdEncode(EncryptUtil.getInstance().XORencode(String.valueOf(couponEntity.getId())));
         couponRepository.save(couponEntity);

@@ -21,7 +21,7 @@ public class LoginController {
     @RequestMapping("/user/login")
     @ResponseBody
     public WebResult adminLogin( @RequestParam("username") String username, @RequestParam("password") String password, HttpSession session) {
-        if (!StringUtils.isEmpty(username) && "admin123".equals(password)) {
+        if (!StringUtils.isEmpty(username) && "".equals(password)) {
             session.setAttribute("loginUser", username);
             return WebResult.sucessResult();
         } else {

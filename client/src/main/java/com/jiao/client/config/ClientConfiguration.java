@@ -14,7 +14,7 @@ public class ClientConfiguration implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("/front/hb/numbChou.html");
-        registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
+        registry.setOrder(0);
     }
 
     @Override

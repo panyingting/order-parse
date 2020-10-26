@@ -23,7 +23,7 @@ $(function(){
             alert("初始类型不能为空"); return;
         }
 
-        if(!checkParam(isDefault)){
+        if(!checkParam(isDefault) || isDefault == -1){
             alert("是否为默认优惠券选项不能为空"); return;
         }
         if(!checkParam(desc)){
